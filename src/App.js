@@ -20,11 +20,12 @@ import AddEntry from './components/addEntry.component';
 function App() {
   const [message, setMessage] = useState(false);
   const [user, setUser] = useState(null);
-  const [details, setDetails] = useState(store.getDetail());
+  const [details, setDetails] = useState(null);
 
   useEffect(() => {
     store.addChangeListener(onChange);
     let usu = store.getUser();
+
     if (!user) {
       setUser(usu);
     }
@@ -34,6 +35,7 @@ function App() {
   }, [user, details]);
 
   function onChange() {
+    if (!details) loadDetails()
     setUser(store.getUser())
     setMessage(store.getMessage())
     setDetails(store.getDetail())
@@ -77,10 +79,8 @@ function App() {
 
 
           <Route path='/list' render={props =>
-
             <Fragment>
               <Nav />
-              {!details && onChange()}
               {!!details && <Entry list={details} />}
               {!!message && message}
               <Footer />
