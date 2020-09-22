@@ -25,7 +25,7 @@ function App() {
   useEffect(() => {
     store.addChangeListener(onChange);
     let usu = store.getUser();
-    if (!details) loadDetails()
+    if (user) { if (!details) loadDetails() }
     if (!user) {
       setUser(usu);
     }
