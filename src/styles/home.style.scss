@@ -42,16 +42,15 @@
 .home-button {
 	background-color: #12cdd4;
 	height: 50px;
-	opacity: 0.5;
 	width: 140px;
 	font-size: inherit;
 	border-style: none;
 	margin: 5px 0px 10px 0px;
 	border-radius: 10px;
 }
-.home-button:hover {
-	opacity: 1;
-}
+// .home-button:hover {
+//	opacity: 1;
+// }
 
 [type='radio'] {
 	position: absolute;
