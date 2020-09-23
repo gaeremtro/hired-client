@@ -63,6 +63,7 @@ function Register() {
 									id="bday"
 									value={bday}
 									onChange={(event) => setBday(event.target.value.trim())}
+									min="1920-09-26" max="2008-09-26"
 									name="bday"
 									required
 								/>
