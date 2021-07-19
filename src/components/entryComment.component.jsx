@@ -38,14 +38,14 @@ function EntryComment({ props }) {
 	}
 
 	return (
-		<>
+		<div className='spacer'>
 			{entry && <Detail detail={entry}></Detail>}
 			<CommentDetail entryId={entryID} />
-			<div className="holder">
+			<div >
 				{comments &&
 					comments.map((current) => {
 						return (
-							<CommentDetail
+							<CommentDetail 
 								key={current._id}
 								detail={current}
 								entryId={entryID}
@@ -63,7 +63,7 @@ function EntryComment({ props }) {
 					/>
 				</div>
 			)}
-		</>
+		</div>
 	);
 }
 

@@ -10,7 +10,7 @@ const ICONS = {
     tech: "https://cdn1.iconfinder.com/data/icons/desktop-program-app-no-1119/100/01-code-computer-development-programming-512.png",
     comments: "https://image.flaticon.com/icons/svg/1380/1380338.svg",
     popularity: "https://i.pinimg.com/originals/c7/ce/4b/c7ce4bcef32775f56ee36aacfdd2051c.png",
-    addPopularity: "https://uxwing.com/wp-content/themes/uxwing/download/19-ecommerce-shopping/flame.png",
+    addPopularity: "https://image.flaticon.com/icons/png/512/740/740842.png",
     rating: "https://static.thenounproject.com/png/1343935-200.png",
     favorite: "https://cdn.iconscout.com/icon/free/png-256/star-bookmark-favorite-shape-rank-like-32386.png",
     noFavorite: "https://icons-for-free.com/iconfiles/png/512/favorite+favourite+premium+rate+rating+star+icon-1320166547676710135.png",

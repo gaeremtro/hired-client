@@ -14,6 +14,7 @@
 	align-items: center;
 	margin: auto;
 	width: 70%;
+	max-width: 450px;
 	background-color: white;
 	margin-top: 33px;
 	padding-bottom: 25px;
@@ -50,8 +51,9 @@
 }
 .login-super {
 	background-color: #12cdd4;
-	padding: 1px;
-	padding-bottom: 23vw;
+	padding: 10px;
+	height: 78vh;
+	min-height: 600px;
 }
 .login-imputs,
 form {

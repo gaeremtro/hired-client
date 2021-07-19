@@ -35,9 +35,9 @@ function Register() {
 			<div className="login-holder flex-col">
 				<h1>REGISTER</h1>
 				<div className="login-imputs flex-col">
-					<div className="flex-col">
+					<div className="flex-col login-imputs">
 						<form
-							className="flex-col"
+							className="flex-col login-imputs"
 							action="javascript:void(0);"
 							onSubmit={() =>
 								registerActions(name, bootCamp, email, md5(password), bday)

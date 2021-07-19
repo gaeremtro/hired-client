@@ -1,6 +1,6 @@
 body {
 	position: relative;
-	min-height: 100vh;
+	height: 100%;
 	zoom: 1;
 }
 
@@ -31,6 +31,8 @@ body {
 	bottom: 0px;
 	width: 100%;
 	position: absolute;
+	height: 3vh;
+	min-height: 30px;
 	h6 {
 		max-height: 50px;
 		margin: 1px;

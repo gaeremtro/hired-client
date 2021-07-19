@@ -55,7 +55,7 @@ function Entry({ list }) {
 		}
 	}
 	return (
-		<>
+		<div className='spacer'>
 			{detail.length !== 0 &&
 				detail.map((current) => {
 					const MATCH = <Detail key={current._id} detail={current}></Detail>;
@@ -88,7 +88,7 @@ function Entry({ list }) {
 					/>
 				</div>
 			)}
-		</>
+		</div>
 	);
 }
 

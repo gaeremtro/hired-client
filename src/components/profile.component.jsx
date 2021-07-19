@@ -23,8 +23,8 @@ function Profile() {
 		return <Redirect to="/" />;
 	}
 	return (
-		<>
-			<div className="profile-holder flex-col">
+		<div className='profile-holder'>
+			<div className="profile-content flex-col">
 				<h1>PROFILE</h1>
 				<div className="profile-info">
 					<p>
@@ -50,7 +50,7 @@ function Profile() {
 					</Link>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 

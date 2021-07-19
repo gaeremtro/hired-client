@@ -1,15 +1,22 @@
-.profile-holder {
+.profile-content {
 	display: flex;
 	align-items: center;
-	margin: 10% 10%;
-	padding-top: 20px;
-	padding-bottom: 30px;
+	margin: 6% 10%;
+	padding: 20px;
 	border-radius: 20px;
 	border-color: #fac710;
 	background-color: #fac710;
 	box-shadow: 1px 1px 5px grey;
+	width: 100%;
+	max-width: 500px;
+	height: 300px;
 	border-style: solid;
-	zoom: 125%;
+}
+.profile-holder{
+	display: flex;
+	justify-content: center;
+	height: 93vh;
+	min-height: 600px;
 }
 .profile-info {
 	a {

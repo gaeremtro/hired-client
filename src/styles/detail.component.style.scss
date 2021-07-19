@@ -58,7 +58,8 @@
 }
 textarea {
 	font-size: x-large;
-}
+	width: 95%;
+  }
 .inputSubmit {
 	align-self: center;
 	background-color: white;
@@ -69,4 +70,9 @@ textarea {
 }
 .comment-button {
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.card-holder {
+	height: 92vh;
 }
