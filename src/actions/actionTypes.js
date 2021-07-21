@@ -1,4 +1,5 @@
-export default {
+
+export default  {
     LOAD_DETAIL: 'LOAD_DETAIL',
     CREATE_USER: 'CREATE_USER',
     UPDATE_USER: 'UPDATE_USER',

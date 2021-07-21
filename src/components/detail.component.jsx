@@ -27,19 +27,24 @@ function Detail({ detail }) {
 		}
 	}
 	function changeFav() {
+		console.log(user,'l30')
 		if (user.fav) {
 			setUser({ fav: false });
 			let userAll = detailStore.getUser();
+			console.log(userAll, 'if first l33');
 			userAll.user_fav_list.splice(
-				userAll.user_fav_list.findIndex((current) => current === detail._id, 1)
+				userAll.user_fav_list.findIndex((current) => current === detail._id), 1
 			);
+			console.log(userAll,' if second l37');
 			detailStore.setUser(userAll);
 			editUser(userAll);
 		} else {
 			setUser({ fav: true });
 			let userAll = detailStore.getUser();
+			console.log(userAll,' else first l43');
 			userAll.user_fav_list.push(detail._id);
 			detailStore.setUser(userAll);
+			console.log(userAll,' else second l46');
 			editUser(userAll);
 		}
 	}
